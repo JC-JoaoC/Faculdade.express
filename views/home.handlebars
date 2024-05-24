@@ -1,0 +1,47 @@
+
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="contatos/css/signin.css" />
+    <script src="contatos/js/signin.js" defer></script>
+
+    <title>Singin</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Entrar</h1>
+
+        <div id="msgError"></div>
+
+        <div class="label-float">
+          <input type="text" id="usuario" paceholder="" required />
+          <label id="userLabel" for="usuario">Usuario</label>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="senha" paceholder="" required />
+          <label id="senhaLabel" for="senha">Senha</label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="justify-center">
+          <a href='http://localhost:3333/contatos'><button>Cadastrar</button></a>
+        </div>
+
+        <div class="justify-center">
+          <hr />
+        </div>
+
+        <p>
+          Não tem uma conta?
+          <a href="http://localhost:3333/registrar">
+            Cadastre-se
+          </a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
